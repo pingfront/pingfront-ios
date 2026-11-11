@@ -1,0 +1,1 @@
+{"error": {"code": "rate_limited", "message": "Too many uploads", "docs": "https://pingfront.sh/docs/errors#rate_limited", "retryAfter": 42, "scope": "uploads"}}

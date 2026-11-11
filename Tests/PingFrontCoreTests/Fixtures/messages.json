@@ -1,0 +1,58 @@
+{
+  "hasMore": true,
+  "messages": [
+    {
+      "id": "msg_text", "seq": 1, "clientId": "6f1d6c2e-2f43-4f7e-9a4b-0d7a3f1c0001",
+      "author": { "kind": "person" },
+      "parts": [{ "type": "text", "text": "Is the yearly plan refundable?" }],
+      "createdAt": "2026-10-30T18:00:00Z"
+    },
+    {
+      "id": "msg_ping", "seq": 2,
+      "author": { "kind": "team", "id": "m_deniz", "name": "Deniz", "avatarUrl": "https://cdn.test/deniz.png" },
+      "parts": [{ "type": "text", "text": "Anything unclear about Pro?" }],
+      "createdAt": "2026-10-30T21:01:00.123+03:00",
+      "ping": { "kind": "play", "playId": "play_plans", "explanation": "Sent automatically after you closed Plans" }
+    },
+    {
+      "id": "msg_image", "seq": 3,
+      "author": { "kind": "person" },
+      "parts": [{ "type": "image", "attachmentId": "att_1", "width": 1170, "height": 2532, "url": "https://cdn.test/a.jpg" }],
+      "createdAt": "2026-10-30T18:02:00Z"
+    },
+    {
+      "id": "msg_cards", "seq": 4,
+      "author": { "kind": "team", "id": "m_deniz", "name": "Deniz" },
+      "parts": [
+        { "type": "card", "card": { "kind": "offer", "id": "c_offer", "offerId": "yearly", "title": "Pro yearly", "body": "First month free", "button": "See the offer" } },
+        { "type": "card", "card": { "kind": "review", "id": "c_review", "mode": "native_prompt", "storeUrl": "https://apps.apple.com/app/id1", "button": "Rate" } },
+        { "type": "card", "card": { "kind": "link", "id": "c_link", "title": "Guide", "url": "clockwise://help", "button": "Open" } },
+        { "type": "card", "card": { "kind": "choices", "id": "c_choices", "options": [{ "id": "a", "label": "A" }, { "id": "b", "label": "B" }] }, "result": { "at": "2026-10-30T18:05:00Z", "choiceId": "b" } },
+        { "type": "card", "card": { "kind": "rating", "id": "c_rating", "question": "How was this?", "scale": 5 }, "result": { "at": "2026-10-30T18:06:00Z", "rating": 4 } },
+        { "type": "card", "card": { "kind": "report", "id": "c_report", "title": "Report it", "button": "Report a bug" } },
+        { "type": "card", "card": { "kind": "survey", "id": "c_future", "questions": 3 } }
+      ],
+      "createdAt": "2026-10-30T18:04:00Z"
+    },
+    {
+      "id": "msg_receipt", "seq": 5,
+      "author": { "kind": "system" },
+      "parts": [{ "type": "receipt", "action": "trial_extended", "text": "Trial extended to 14 Nov" }, { "type": "receipt", "action": "gift_sent", "text": "Gift sent" }, { "type": "receipt", "action": "handed_off", "text": "Deniz will reply" }],
+      "createdAt": "2026-10-30T18:07:00Z"
+    },
+    {
+      "id": "msg_ai", "seq": 6,
+      "author": { "kind": "ai", "name": "Clockwise Assistant" },
+      "parts": [{ "type": "text", "text": "Hola" }, { "type": "poll", "question": "?" }],
+      "createdAt": "2026-10-30T18:08:00Z",
+      "translation": { "language": "en", "parts": [{ "type": "text", "text": "Hello" }] }
+    },
+    { "id": "msg_broken", "seq": "seven" },
+    {
+      "id": "msg_future_author", "seq": 8,
+      "author": { "kind": "robot" },
+      "parts": [{ "type": "text", "text": "From the future" }],
+      "createdAt": "2026-10-30T18:09:00Z"
+    }
+  ]
+}

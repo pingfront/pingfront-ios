@@ -1,0 +1,12 @@
+[
+  { "type": "hello", "lastSeq": 4, "readSeq": 2 },
+  { "type": "message", "seq": 5, "message": { "id": "m5", "seq": 5, "author": { "kind": "team", "name": "Deniz" }, "parts": [{ "type": "text", "text": "Hi" }], "createdAt": "2026-10-30T18:00:00Z" } },
+  { "type": "message_updated", "seq": 6, "message": { "id": "m5", "seq": 5, "author": { "kind": "team", "name": "Deniz" }, "parts": [{ "type": "text", "text": "Hi!" }], "createdAt": "2026-10-30T18:00:00Z" } },
+  { "type": "typing", "author": { "kind": "ai", "name": "Assistant" }, "on": true },
+  { "type": "read", "by": "team", "upToSeq": 5 },
+  { "type": "thread", "status": "resolved" },
+  { "type": "reset" },
+  { "type": "config", "revision": 4, "draft": true },
+  { "type": "reauth" },
+  { "type": "presence", "online": true }
+]

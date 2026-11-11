@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "revision": 3,
+  "draft": false,
+  "appName": "Clockwise",
+  "look": {
+    "theme": { "accent": { "light": "#3550E6", "dark": "#7D91FF" }, "corners": "soft", "font": "serif", "scheme": "dark", "density": "compact" },
+    "header": { "style": "team", "memberId": "m1", "title": { "default": "The team", "de": "Das Team" }, "showLocalTime": false },
+    "welcome": { "title": { "default": "Hi" }, "showFaces": false },
+    "topics": [
+      { "id": "billing", "label": { "default": "Billing", "tr": "Ödeme" }, "symbol": "billing" },
+      { "id": "sync", "label": { "default": "Sync" }, "symbol": "rocket", "prefill": { "default": "Sync stopped when " } }
+    ],
+    "composer": { "photos": false, "placeholder": { "default": "Write to us" } },
+    "messages": { "timestamps": "always", "showAvatars": false },
+    "replyExpectation": { "default": "Within a day" },
+    "aiName": "Clocky"
+  },
+  "team": [{ "id": "m1", "name": "Deniz", "role": "Maker of Clockwise", "timeZone": "Europe/Istanbul" }],
+  "features": { "photos": true, "reports": true, "translation": false, "ai": false },
+  "liveUrl": "wss://api.pingfront.sh/v1/live"
+}

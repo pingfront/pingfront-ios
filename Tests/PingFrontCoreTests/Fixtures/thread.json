@@ -1,0 +1,11 @@
+{
+  "thread": { "id": "thr_1", "status": "open", "lastSeq": 2, "readSeq": 1, "unread": 1 },
+  "messages": [
+    { "id": "m1", "seq": 1, "author": { "kind": "person" }, "parts": [{ "type": "text", "text": "Hi" }], "createdAt": "2026-10-30T18:00:00Z" },
+    { "id": "m2", "seq": 2, "author": { "kind": "team", "name": "Deniz" }, "parts": [{ "type": "text", "text": "Hello" }], "createdAt": "2026-10-30T18:01:00Z" }
+  ],
+  "hasOlder": false,
+  "team": [{ "id": "m_deniz", "name": "Deniz", "role": "Maker of Clockwise", "timeZone": "Europe/Istanbul" }],
+  "replyExpectation": "Usually replies within a few hours",
+  "policy": { "canSend": false, "reason": "blocked" }
+}
